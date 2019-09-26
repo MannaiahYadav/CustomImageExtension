@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomImageExtension_Example' do
+  pod 'CustomImageExtension', :path => '../'
+
+  target 'CustomImageExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
