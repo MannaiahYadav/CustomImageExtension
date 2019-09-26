@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B56BFA5C7DC4E927AF4B856 /* CustomImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomImageExtension.podspec; path = ../CustomImageExtension.podspec; sourceTree = "<group>"; };
-		3D8F372D16371C63AB50B4C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B56BFA5C7DC4E927AF4B856 /* CustomImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomImageExtension.podspec; path = ../CustomImageExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D8F372D16371C63AB50B4C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56AD8DB5DC5CBC9BD598AF26 /* Pods-CustomImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomImageExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomImageExtension_Example/Pods-CustomImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomImageExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomImageExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		DC5CC2B8EF55E37B8A658F96 /* Pods_CustomImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomImageExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E200817CB79B90C497B6DA65 /* Pods-CustomImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomImageExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomImageExtension_Example/Pods-CustomImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F6D78A5594A5A6E9645DE34B /* Pods_CustomImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA1D05E0B43162B437ACB1A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA1D05E0B43162B437ACB1A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				D202C19748E8C0E362CFD138 /* Pods-CustomImageExtension_Tests.debug.xcconfig */,
 				BD9A6B14EEECB7E681B2C45D /* Pods-CustomImageExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -285,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CustomImageExtension_Example-checkManifestLockResult.txt",
 			);
@@ -307,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CustomImageExtension_Tests-checkManifestLockResult.txt",
 			);

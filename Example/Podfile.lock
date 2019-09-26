@@ -1,0 +1,16 @@
+PODS:
+  - CustomImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - CustomImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  CustomImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomImageExtension: b89aaad05dcc52beb5e19b69d9b9504dbcd8b178
+
+PODFILE CHECKSUM: b2a1af7d345980cf2081a223da7ac48f2324992f
+
+COCOAPODS: 1.8.0

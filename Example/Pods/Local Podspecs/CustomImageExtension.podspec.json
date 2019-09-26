@@ -1,0 +1,22 @@
+{
+  "name": "CustomImageExtension",
+  "version": "0.1.0",
+  "summary": "A short description of CustomImageExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mannaiah/CustomImageExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mannaiah": "mannaiah.01@karvy.com"
+  },
+  "source": {
+    "git": "https://github.com/mannaiah/CustomImageExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomImageExtension/Classes/**/*"
+}
